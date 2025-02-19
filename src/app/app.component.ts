@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, computed, input } from '@angular/core';
 import { NavbarComponent } from './navbar/navbar.component';
 import { InformationComponent } from './information/information.component';
 
@@ -9,5 +9,5 @@ import { InformationComponent } from './information/information.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  
+  activeInfoId = '';
 }

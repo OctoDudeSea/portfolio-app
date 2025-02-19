@@ -4,14 +4,13 @@
     padding: 0;
     border-radius: 20px;
     text-align: left;
-    width: 40%;
+    width: 30%;
     height: fit-content;
     position: sticky;
     top: 8rem;
 }
 
 ul {
-    border: solid 5px black;
     margin: 0;
     padding: 0;
     padding-left: 1rem;
@@ -19,16 +18,47 @@ ul {
 
 li {
     list-style: none;
-    border: 1px solid black;
     margin: auto;
     text-wrap: nowrap;
     padding-top: 1rem;
-    color: var(--secondary-color);
     width: 100%;
+    vertical-align: middle;
 }
 
-.selected {
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: 0.5s;
+}
+
+a:hover {
     font-size: 2rem;
-    color: rgb(198, 48, 48);
-    font-weight: 500;
+    color: red;
+}
+
+a:hover svg {
+    scale: 2;
+    fill: red;
+    transform: translate(3px, -3px);
+}
+
+svg {
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+    transition: 0.5s;
+    
+}
+
+.active {
+    font-size: 2rem;
+    color: red;
+    fill: red;
+}
+
+.active svg {
+    scale: 2;
+    fill: red;
+    transform: translate(3px, -3px);
 }

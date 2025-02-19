@@ -5,6 +5,12 @@
     --primary-color: rgb(43, 43, 43);
     --secondary-color: rgb(120, 120, 120);
     --tertiary-color: rgb(166, 166, 166);
+    --hoover-color: rgb(37, 16, 172);
+    --selected-color: rgb(153, 23, 23);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 * {

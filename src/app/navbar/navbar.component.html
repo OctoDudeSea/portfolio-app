@@ -2,8 +2,7 @@
 <h2>Desarollador Web</h2>
 <p>Centrado en el front-end usando principalmente Angular para crear webs modernas y rapidas, con enfoque en la experiencia de usuario</p>
 <ul>
-    <li class="selected" >- Sobre mi</li>
-    <li>Proyectos</li>
-    <li>Habilidades</li>
-    <li>Contacto</li>
+    @for (link of links; track $index) {
+        <li><a routerLink="." (click)="scrollToAnchor(link.link)" [class.active]="currentAnchor() === link.link">{{ link.name }}<svg fill="#000000" width="64px" height="64px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path></g></svg></a></li>
+    }
 </ul>

@@ -1,2 +1,2 @@
-<app-navbar></app-navbar>
-<app-information></app-information>
+<app-navbar [currentAnchor]="activeInfoId"></app-navbar>
+<app-information (activeIdEvent)="activeInfoId = $event"></app-information>
