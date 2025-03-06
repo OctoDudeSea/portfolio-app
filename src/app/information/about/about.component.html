@@ -1,7 +1,8 @@
-<h1>Sobre mi</h1>
-<h2>Mi trayectoria personal</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, optio officia consequatur nobis earum quam aliquid recusandae numquam! Ratione eum dolorem nostrum sed maiores esse consequuntur iure asperiores aliquid tempora.
-Dolore minus nostrum officia facilis eius vero doloremque tempore consequuntur a ipsum recusandae dolores quo molestias magni repudiandae, soluta voluptatem dicta error blanditiis sit expedita alias deserunt. Ipsum, aut dignissimos.
-Minima consequatur odio sed voluptatibus facilis! Fugit, vel reprehenderit repellendus voluptates enim quam accusamus sint autem perferendis illo corrupti eum voluptatem totam magnam cumque alias! Quia repellat laboriosam enim quibusdam.
-Nisi voluptatem laudantium, voluptates, pariatur quod facere natus ex eum doloribus asperiores eius saepe, reprehenderit iste earum unde iusto atque obcaecati consectetur sunt provident at. Veritatis illum dolorum quaerat. Dolorum!
-Officiis unde similique recusandae doloribus eos, illum natus ex corporis, ipsum cupiditate sapiente ut dolore? Unde quas sed dolorem consectetur ipsum labore architecto molestiae incidunt recusandae totam. Consequatur, quo praesentium!</p>
+<ng-container *transloco="let trans; scope: 'about'; lang: 'es'">
+    <h1>{{ trans('about.title') }}</h1>
+    <h2>{{ trans('about.description')}}</h2>
+    <p>{{ trans('about.paragraph1') }}</p>
+    <p [innerHTML]="trans('about.paragraph2')"></p>
+    <p>{{ trans('about.paragraph3') }}</p>
+    <p>{{ trans('about.paragraph4') }}</p>
+</ng-container>
