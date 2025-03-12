@@ -1,9 +1,12 @@
 :host {
+    display: flex;
+    flex-direction: column;
     margin: 2rem;
     padding: 0;
     border-radius: 20px;
     border: solid 5px black;
     width: 40%;
+    gap: 3rem;
 }
 
 div {
