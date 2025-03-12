@@ -1,0 +1,20 @@
+{
+    "title": "Habilidades",
+    "subtitle": "Los conocimientos que he adquidido",
+    "description": "Estas son algunas de las habilidades que he adquirido a lo largo de los años a través del autoaprendizaje, educación y experiencia laboral. Siempre estoy buscando aprender nuevas tecnologías y mejorar mis habilidades, pero estas son en las que considero que destaco.",
+    "skill1": {
+        "title": "Angular",
+        "subtitle": "Framework front-end",
+        "description": "Se como usar Angular para crear aplicaciones de una sola página utilizando HTML y TypeScript. Algunos de los conceptos con los que estoy familiarizado son componentes, servicios, enrutamiento, formularios, señales e inyección de dependencias. Como ejemplo, este sitio web fue hecho usando Angular implementando en cierta medida todo lo mencionado anteriormente."
+    },
+    "skill2": {
+        "title": "Spring Boot",
+        "subtitle": "Java",
+        "description": "Spring Boot is an open source Java-based framework used to create micro-services."
+    },
+    "skill3": {
+        "title": "Angular",
+        "subtitle": "Java",
+        "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript."
+    }
+}

@@ -1,15 +1,12 @@
-<h1>Mis habilidades</h1>
-<h2>Los conocimientos que he adquidido</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati pariatur, fugiat quidem impedit nostrum sit? Magni accusantium, nostrum placeat, suscipit quis sapiente quisquam maiores id soluta, vel quidem cum tempore?
-Harum dignissimos ut magni reprehenderit quisquam nihil libero fugiat ab neque facere minus rem expedita fugit omnis eligendi, illum aliquid, eos pariatur vel soluta commodi labore deleniti eius cupiditate. Tempore?
-Deserunt aliquam provident modi ab sit vel, minus voluptates rerum facere reprehenderit iure debitis eaque et nesciunt praesentium ea ipsum laboriosam ipsa quia expedita possimus nemo porro! Similique, magnam reiciendis?
-Porro, delectus voluptates libero mollitia et atque dolorem ipsam iure. Placeat ad asperiores fuga eaque nulla ut quas vero pariatur! Impedit, illum. Pariatur voluptate incidunt eos, ipsa iusto ipsam. Soluta!
-Explicabo repudiandae sit dolor, voluptas repellendus facilis earum nemo voluptatem laboriosam tempora amet odio totam, in possimus aspernatur itaque, dolorum consequatur. Nesciunt facilis illum, vero quam voluptatibus quae vitae laboriosam!</p>
-<app-skill
-    title="HTML"
-    description="HyperText Markup Language"
-    content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati pariatur, fugiat quidem impedit nostrum sit? Magni accusantium, nostrum placeat, suscipit quis sapiente quisquam maiores id soluta, vel quidem cum tempore?"
->
-    <app-tag color="blue">Front-End</app-tag>
-    <app-tag color="orange">Front-End</app-tag>
-</app-skill>
+<ng-container *transloco="let trans; scope: 'skills'">
+    <h1>{{ trans('skills.title') }}</h1>
+    <h2>{{ trans('skills.subtitle') }}</h2>
+    <p>{{ trans('skills.description') }}</p>
+    <app-skill
+        title="{{ trans('skills.skill1.title') }}"
+        description="{{ trans('skills.skill1.subtitle') }}"
+        content="{{ trans('skills.skill1.description') }}"
+    >
+        <app-tag color="blue">Front-End</app-tag>
+    </app-skill>
+</ng-container>

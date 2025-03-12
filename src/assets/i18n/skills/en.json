@@ -1,0 +1,22 @@
+{
+    "title": "Skills",
+    "subtitle": "The knowledge i have acquired",
+    "description": "This are some of the skills i have acquired over the years throught self-learning, education and working experience. I am always looking to learn new technologies and improve my skills but this are the ones i consider myself proficient in.",
+    "skills": {
+        "skill1": {
+            "title": "Angular",
+            "subtitle": "Front-end framework",
+            "description": "I know how to use Angular to create single-page applications using HTML and TypeScript. Some of the concepts i am familiar with are components, services, routing, forms, signals, and dependency injection. As an example, this website was built using Angular."
+        },
+        "skill2": {
+            "title": "Spring Boot",
+            "subtitle": "Java",
+            "description": "Spring Boot is an open source Java-based framework used to create micro-services."
+        },
+        "skill3": {
+            "title": "Angular",
+            "subtitle": "Java",
+            "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript."
+        }
+    }
+}
