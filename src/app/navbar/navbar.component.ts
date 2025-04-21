@@ -1,10 +1,11 @@
 import { ViewportScroller } from '@angular/common';
 import { Component, inject, input, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { LangSwitchComponent } from '../lang-switch/lang-switch.component';
 
 @Component({
   selector: 'app-navbar',
-  imports: [ RouterLink ],
+  imports: [ RouterLink, LangSwitchComponent ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
