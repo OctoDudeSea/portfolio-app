@@ -1,7 +1,10 @@
-<h1>Mis proyectos</h1>
-<h2>En que he trabajado a nivel personal y que he aprendido en el proceso</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tenetur saepe quae repellat molestias laborum nisi aperiam nesciunt distinctio natus ducimus corporis quidem excepturi cupiditate delectus at, dolorum tempora quisquam.
-Corporis quibusdam perferendis non veniam repudiandae eveniet unde aut, similique iure. Eveniet repudiandae, cumque natus incidunt voluptatem id hic ea dolorem iste possimus ab quisquam doloremque sunt aspernatur totam neque!
-Commodi in ut explicabo obcaecati corporis dolorum nam! Esse maiores rerum natus non mollitia officiis vel! Magni at tempore, autem beatae rem deleniti rerum ducimus quis ad veniam, nisi a.
-Blanditiis eum dignissimos ipsa adipisci fugit, rem in nulla fugiat, debitis, mollitia autem neque vel architecto aliquid commodi. Eius commodi molestiae laborum ratione. Perferendis nihil tempore itaque est a tempora.
-Eius officiis perferendis qui aliquid expedita est ipsa neque nesciunt nostrum, dolore amet, voluptate facilis blanditiis. Ducimus quaerat blanditiis, libero est quod illum perferendis sit iure maiores, fuga ullam ea.</p>
+<ng-container *transloco="let trans; scope: 'my-projects'">
+    <h1>{{ trans("myProjects.title") }}</h1>
+    <h2>{{ trans("myProjects.description") }}</h2>
+    <p>{{ trans("myProjects.paragraph1") }}</p>
+    <app-skill
+        title="{{ trans('myProjects.project1.title') }}"
+        description="{{ trans('myProjects.project1.description') }}"
+        content="{{ trans('myProjects.project1.content') }}"
+    ></app-skill>
+</ng-container>

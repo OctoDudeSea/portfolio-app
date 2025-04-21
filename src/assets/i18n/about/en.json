@@ -1,6 +1,8 @@
 {
-    "title": "About",
-    "description": "This is the about page.",
-    "paragraph1": "Lorem ipsum odor amet, consectetuer adipiscing elit. Porta cras ante posuere magnis feugiat posuere. Porttitor justo senectus ac dolor, a cursus. Potenti maximus mattis natoque blandit pharetra aptent eros tortor. Molestie felis est lobortis penatibus morbi maecenas mollis tempor ad. Lacus sodales amet a blandit ultrices augue maecenas magnis. Hac ullamcorper sodales vel est tincidunt. Class taciti convallis ad magna phasellus mauris interdum aliquam.",
-    "paragraph2": "Lorem ipsum odor amet, consectetuer adipiscing elit. Porta cras ante posuere magnis feugiat posuere. Porttitor justo senectus ac dolor, a cursus. Potenti maximus mattis natoque blandit pharetra aptent eros tortor. Molestie felis est lobortis penatibus morbi maecenas mollis tempor ad. Lacus sodales amet a blandit ultrices augue maecenas magnis. Hac ullamcorper sodales vel est tincidunt. Class taciti convallis ad magna phasellus mauris interdum aliquam."
+    "title": "About Me",
+    "description": "What is my professional profile",
+    "paragraph1": "I am a web developer with experience on both the client and server side. I love learning new technologies and working on interesting projects. I am focusing on front-end development although I also have experience working on the back-end.",
+    "paragraph2": "Since I started in the development world, I have always been fascinated by user experience and user interface. I like to create easy, intuitive, and attractive experiences, maintaining a balance between visual design, simplicity, and practicality. I try to bring these principles into the code I write as well, following a <b>DRY</b> and <b>SOLID</b> philosophy.",
+    "paragraph3": "I consider myself a curious, creative, and passionate person about what I do. I enjoy working in teams, learning from others, and sharing my knowledge. I’m always looking for ways to improve and grow both as a professional and as a person.",
+    "paragraph4": "In my free time, I enjoy reading, listening to music, watching movies and series, playing video games, and doing sports. I also like learning new things, whether it's about technology, science, history, philosophy, etc."
 }

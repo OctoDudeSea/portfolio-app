@@ -1,0 +1,10 @@
+{
+    "title": "Mis Proyectos",
+    "description": "En qué he trabajado y qué he aprendido en el proceso",
+    "paragraph1": "Aqui enseñare algunos de los proyectos en los que he trabajado. Habra proyectos personales y profesionales. Iré añadiendo más proyectos con el tiempo.",
+    "project1": {
+        "title": "Mi Portafolio",
+        "description": "Este es mi portafolio personal, donde muestro mis habilidades y proyectos.",
+        "content": "Fue construido usando Angular y TypeScript, y es completamente responsivo. Utilicé la librería Transloco para las traducciones, lo que me permite agregar fácilmente nuevos idiomas en el futuro. Aquí he utilizado muchas de las características de Angular, como  enrutamiento, señales, inyección de dependencias y componentes. Estilicé los componentes usando CSS puro y decidí hostearlo en GitHub Pages, que es un servicio de alojamiento gratuito proporcionado por GitHub. También utilicé Angular CLI para crear el proyecto y gestionar sus dependencias."
+      }
+}
