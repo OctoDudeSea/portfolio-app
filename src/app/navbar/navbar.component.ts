@@ -13,7 +13,7 @@ export class NavbarComponent implements OnInit {
   links = [
     {name: 'Sobre mi', link: 'about'},
     {name: 'Habilidades', link: 'skills'},
-    {name: 'Mis proyectos', link: 'my-projects'},
+    {name: 'Proyectos', link: 'my-projects'},
     {name: 'Experiencia', link: 'experience'},
     {name: 'Educacion', link: 'education'}
   ];

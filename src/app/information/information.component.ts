@@ -18,7 +18,7 @@ export class InformationComponent implements AfterViewInit {
     if(elements[0].isIntersecting){
       this.activeIdEvent.emit(elements[0].target.id);
     }
-  }, { threshold: 1 });
+  }, { threshold: 0.4 });
 
   content = viewChildren('content',{ read: ElementRef });
   

@@ -4,19 +4,24 @@
     "description": "This are some of the skills i have acquired over the years throught self-learning, education and working experience. I am always looking to learn new technologies and improve my skills but this are the ones i consider myself proficient in.",
     "skills": {
         "skill1": {
-            "title": "Angular",
+            "title": "Angular.js",
             "subtitle": "Front-end framework",
-            "description": "I know how to use Angular to create single-page applications using HTML and TypeScript. Some of the concepts i am familiar with are components, services, routing, forms, signals, and dependency injection. As an example, this website was built using Angular."
+            "description": "I know how to use Angular to create single-page applications using HTML, CSS and TypeScript. Some of the concepts I am familiar with include components, services, routing, forms, signals, and dependency injection. As an example, this website was built using Angular, implementing to some extent everything mentioned above, as well as using the Transloco library for translations. I also have experience with other frameworks like Vue.js."
         },
         "skill2": {
-            "title": "Spring Boot",
-            "subtitle": "Java",
-            "description": "Spring Boot is an open source Java-based framework used to create micro-services."
+            "title": "TypeScript",
+            "subtitle": "JavaScript superset with static typing",
+            "description": "I learned to use it as part of my training in Angular and Vue, and I have used it in personal and professional projects. I like its organized and effective way of programming, which helps avoid common JavaScript errors. I also appreciate its compatibility with JavaScript, which allows it to be used in any JavaScript project without issues. As a foundation for TypeScript, I have a solid understanding of JavaScript and its main concepts such as functions, objects, and asynchrony."
         },
         "skill3": {
-            "title": "Angular",
-            "subtitle": "Java",
-            "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript."
+            "title": "SQL",
+            "subtitle": "Structured Query Language for databases",
+            "description": "As part of my professional journey, I have learned to use SQL to interact with relational databases. I have worked with MySQL and PostgreSQL, and used SQL to create, read, update, and delete data in databases. I also have experience in creating complex queries and optimizing their performance. I also have knowledge of NoSQL databases such as MongoDB."
+        },
+        "skill4": {
+            "title": "Node.js",
+            "subtitle": "Server-side JavaScript runtime environment",
+            "description": "I have learned to use Node.js to build server-side applications and worked with its core concepts like modules, events, and asynchrony. I have also used Express.js, a Node.js framework, to create web applications. I have experience with other server-side languages like .NET and PHP."
         }
     }
 }

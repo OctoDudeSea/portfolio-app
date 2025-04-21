@@ -3,18 +3,23 @@
     "subtitle": "Los conocimientos que he adquidido",
     "description": "Estas son algunas de las habilidades que he adquirido a lo largo de los años a través del autoaprendizaje, educación y experiencia laboral. Siempre estoy buscando aprender nuevas tecnologías y mejorar mis habilidades, pero estas son en las que considero que destaco.",
     "skill1": {
-        "title": "Angular",
+        "title": "Angular.js",
         "subtitle": "Framework front-end",
-        "description": "Se como usar Angular para crear aplicaciones de una sola página utilizando HTML y TypeScript. Algunos de los conceptos con los que estoy familiarizado son componentes, servicios, enrutamiento, formularios, señales e inyección de dependencias. Como ejemplo, este sitio web fue hecho usando Angular implementando en cierta medida todo lo mencionado anteriormente."
+        "description": "Se como usar Angular para crear aplicaciones de una sola página utilizando HTML, CSS y TypeScript. Algunos de los conceptos con los que estoy familiarizado son componentes, servicios, enrutamiento, formularios, señales e inyección de dependencias. Como ejemplo, este sitio web fue hecho usando Angular implementando en cierta medida todo lo mencionado anteriormente ademas de usar la libreria de Transloco para las traducciones. Tamboen tengo experiencia en otros frameworks como Vue.js."
     },
     "skill2": {
-        "title": "Spring Boot",
-        "subtitle": "Java",
-        "description": "Spring Boot is an open source Java-based framework used to create micro-services."
+        "title": "TypeScript",
+        "subtitle": "Superconjunto de JavaScript con tipado estático",
+        "description": "He aprendido a usarlo como parte de mi formacion en Angular y Vue y lo he utilizado en proyectos personales y profesionales. Me gusta su forma organizada y efectiva de programar, lo que evita errores comunes en JavaScript. También me gusta su compatibilidad con JavaScript, lo que permite usarlo en cualquier proyecto de JavaScript sin problemas. Como base para TypeScript, tengo un buen conocimiento de JavaScript y sus conceptos principales, como funciones, objetos y asincronía."
     },
     "skill3": {
-        "title": "Angular",
-        "subtitle": "Java",
-        "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript."
+        "title": "SQL",
+        "subtitle": "Lenguaje de consulta estructurado para bases de datos",
+        "description": "Como parte de mi trayectoria profesional he aprendido a usar SQL para interactuar con bases de datos relacionales. He trabajado con MySQL y PostgreSQL, y he utilizado SQL para crear, leer, actualizar y eliminar datos en bases de datos. También tengo experiencia en la creación de consultas complejas y la optimización del rendimiento de estas mismas. Tambien tengo conocimientos de bases de datos NoSQL como MongoDB."
+    },
+    "skill4": {
+        "title": "Node.js",
+        "subtitle": "Entorno de ejecución de JavaScript del lado del servidor",
+        "description": "He aprendido a usar Node.js para crear aplicaciones del lado del servidor y he trabajado con sus conceptos principales, como módulos, eventos y asincronía. Tambien he utilizado Express.js, un framework de Node.js, para crear aplicaciones web. Tengo experiencia en otros lenguajes del lado del servidor como .NET y PHP."
     }
 }

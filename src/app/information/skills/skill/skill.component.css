@@ -1,6 +1,7 @@
 :host {
     display: grid;
     grid-template-columns: 30% 70%;
+    transition: 0.2s;
 }
 
 :host:hover {

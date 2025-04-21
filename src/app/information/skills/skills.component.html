@@ -1,12 +1,33 @@
 <ng-container *transloco="let trans; scope: 'skills'">
-    <h1>{{ trans('skills.title') }}</h1>
-    <h2>{{ trans('skills.subtitle') }}</h2>
-    <p>{{ trans('skills.description') }}</p>
-    <app-skill
-        title="{{ trans('skills.skill1.title') }}"
-        description="{{ trans('skills.skill1.subtitle') }}"
-        content="{{ trans('skills.skill1.description') }}"
-    >
-        <app-tag color="blue">Front-End</app-tag>
-    </app-skill>
+  <h1>{{ trans("skills.title") }}</h1>
+  <h2>{{ trans("skills.subtitle") }}</h2>
+  <p>{{ trans("skills.description") }}</p>
+  <app-skill
+    title="{{ trans('skills.skill1.title') }}"
+    description="{{ trans('skills.skill1.subtitle') }}"
+    content="{{ trans('skills.skill1.description') }}"
+  >
+    <app-tag color="blue">Front-End</app-tag>
+  </app-skill>
+  <app-skill
+    title="{{ trans('skills.skill2.title') }}"
+    description="{{ trans('skills.skill2.subtitle') }}"
+    content="{{ trans('skills.skill2.description') }}"
+  >
+    <app-tag color="red">Full-Stack</app-tag>
+  </app-skill>
+  <app-skill
+    title="{{ trans('skills.skill3.title') }}"
+    description="{{ trans('skills.skill3.subtitle') }}"
+    content="{{ trans('skills.skill3.description') }}"
+  >
+    <app-tag color="orange">Data Base</app-tag>
+  </app-skill>
+  <app-skill
+    title="{{ trans('skills.skill4.title') }}"
+    description="{{ trans('skills.skill4.subtitle') }}"
+    content="{{ trans('skills.skill4.description') }}"
+  >
+    <app-tag color="green">Back-End</app-tag>
+  </app-skill>
 </ng-container>
