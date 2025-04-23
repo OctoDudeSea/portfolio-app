@@ -1,7 +1,7 @@
 {
     "title": "Mis Proyectos",
     "description": "En qué he trabajado y qué he aprendido en el proceso",
-    "paragraph1": "Aqui enseñare algunos de los proyectos en los que he trabajado. Habra proyectos personales y profesionales. Iré añadiendo más proyectos con el tiempo.",
+    "paragraph1": "Aqui enseñare algunos de los proyectos en los que he trabajado. Habra proyectos personales y profesionales. Iré añadiendo más proyectos con el tiempo. Por ahora el unico proyecto que tengo es mi portafolio, pero estoy trabajando en un proyecto con una API publica que espero tener listo pronto.",
     "project1": {
         "title": "Mi Portafolio",
         "description": "Este es mi portafolio personal, donde muestro mis habilidades y proyectos.",

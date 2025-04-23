@@ -1,7 +1,7 @@
 {
     "title": "My Projects",
     "description": "What i've worked on and what i've learned in the process",
-    "paragraph1": "Here i will be showing some of the projects i have worked on. Some of them will be personal projects and others professional projects. I will be adding more projects over time, so stay tuned.",
+    "paragraph1": "Here i will be showing some of the projects i have worked on. Some of them will be personal projects and others professional projects. I will be adding more projects over time, so stay tuned. For now, the only project i have is my portfolio, but i am working on a project with a public API that i hope to have ready soon.",
     "project1": {
         "title": "My Portfolio",
         "description": "This is my personal portfolio, where I showcase my skills and projects.",
