@@ -3,3 +3,28 @@
     margin: 100px;
     justify-content: center;
 }
+
+.top-left {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+    :host {
+        margin: 1rem;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-left {
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+        padding: 1rem;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+}

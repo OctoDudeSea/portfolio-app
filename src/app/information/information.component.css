@@ -4,10 +4,21 @@
     margin: 2rem;
     padding: 0;
     border-radius: 20px;
-    border: solid 5px black;
     width: 40%;
     gap: 3rem;
 }
+
+@media screen and (max-width: 1300px) {
+    :host {
+        width: 100%;
+        display: block;
+        align-items: center;
+    }
+
+    :nth-child() {
+        margin-bottom: 2rem;
+    }
+}    
 
 div {
     margin-bottom: 3rem;

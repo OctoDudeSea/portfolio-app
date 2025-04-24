@@ -1,5 +1,4 @@
 :host {
-    border: solid 5px black;
     margin: 2rem;
     padding: 0;
     border-radius: 20px;
@@ -8,6 +7,20 @@
     height: fit-content;
     position: sticky;
     top: 8rem;
+}
+
+@media screen and (max-width: 1300px) {
+    :host {
+        width: 100%;
+        display: block;
+        position: relative;
+        align-items: center;
+        top: 3rem;
+    }
+
+    ul {
+        display: none;
+    }
 }
 
 ul {

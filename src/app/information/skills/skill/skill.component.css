@@ -2,11 +2,22 @@
     display: grid;
     grid-template-columns: 30% 70%;
     transition: 0.2s;
+    margin: 1rem;
 }
 
 :host:hover {
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    :host {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
 }
 
 .col1 h1 {
@@ -23,5 +34,6 @@
 
 .tags {
     display: flex;
+    flex-wrap: wrap;
     margin-left: 0.5rem;
 }
