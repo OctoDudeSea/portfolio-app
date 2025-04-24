@@ -1,0 +1,15 @@
+{
+    "title": "Educación",
+    "description": "Mi formación académica y cursos realizados",
+    "paragraph1": "En esta sección, compartiré mi formación académica y los cursos que he realizado. He completado un ciclo formativo de grado superior en Desarrollo de Aplicaciones Web y he participado en varios cursos relacionados con el desarrollo web y la programación. Estoy comprometido con el aprendizaje continuo y siempre busco oportunidades para mejorar mis habilidades.",
+    "education1": {
+        "title": "2022 - 2024",
+        "description": "Grado Superior en Desarrollo de Aplicaciones Web - I.E.S. La Arboleda",
+        "content": "He adquirido conocimientos en programación, bases de datos, desarrollo web y diseño de aplicaciones. He trabajado en proyectos prácticos que me han permitido aplicar lo aprendido en un entorno real."
+    },
+    "education2": {
+        "title": "2018 - 2021",
+        "description": "Grado Medio en Sistemas Microinformáticos y Redes - I.E.S. La Arboleda",
+        "content": "He aprendido sobre la instalación y configuración de sistemas operativos, redes informáticas y mantenimiento de equipos. Este ciclo me ha proporcionado una base sólida en el ámbito de la informática."
+    }
+}

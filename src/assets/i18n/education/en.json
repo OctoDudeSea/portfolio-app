@@ -1,0 +1,15 @@
+{
+    "title": "Education",
+    "description": "My academic background and completed courses",
+    "paragraph1": "In this section, I will share my academic background and the courses I have completed. I have completed a Higher Vocational Training Program in Web Application Development and have participated in several courses related to web development and programming. I am committed to continuous learning and always look for opportunities to improve my skills.",
+    "education1": {
+        "title": "2022 - 2024",
+        "description": "Higher Vocational Training in Web Application Development - I.E.S. La Arboleda",
+        "content": "I have gained knowledge in programming, databases, web development, and application design. I have worked on practical projects that allowed me to apply what I learned in a real-world environment."
+    },
+    "education2": {
+        "title": "2018 - 2021",
+        "description": "Intermediate Vocational Training in Microcomputer Systems and Networks - I.E.S. La Arboleda",
+        "content": "I learned about installing and configuring operating systems, computer networks, and equipment maintenance. This program provided me with a solid foundation in the field of IT."
+    }
+}
