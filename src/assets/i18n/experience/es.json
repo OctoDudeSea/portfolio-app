@@ -1,0 +1,16 @@
+{
+    "title": "Mi experiencia profesional",
+    "description": "En qué he trabajado a nivel profesional",
+    "paragraph1": "En este apartado mostraré mi trayectoria profesional incluyendo los proyectos en los que he trabajado y las tecnologías que he utilizado. He trabajado en proyectos de diferentes relacionados con el sector IT. Ahora mismo estoy enfocado en el desarollo web y mi objetivo es seguir aprendiendo y creciendo en mi carrera profesional, y estoy emocionado por las oportunidades que el futuro me depara.",
+    "paragraph2": "A continuación, se presentan algunos de los proyectos en los que he trabajado y las tecnologías que he utilizado. Espero que esta información te ayude a comprender mejor mi experiencia y habilidades.",
+    "experience1": {
+        "title": "2024 - 2025",
+        "description": "Desarollador Web Full Stack - Plexus Tech",
+        "content": "Realizacion de mejoras y arreglos y gestion de incidencias y peticiones para la pagina web de Iberostar Hoteles usando .NET para el backend, Vue.js para el frontend y PostgreSQL para la base de datos. Todo ello organizado a traves de Azure DevOps."  
+    },
+    "experience2": {
+        "title": "2021 - 2024",
+        "description": "Tecnico de Soporte - Plexus Tech",
+        "content": "Resolucion de incidencias a traves del CMS de Agile, gestión de usuarios de diversas plataformas, solvencion de problemas en noticias, imágenes, videos web y directos, manejo de scripts y servidores de Linux y Windows, gestión de tickets a través de correo electronico, Jira y atencion telefonica, manejo de scripts, servidores de Linux y Windows, arreglo de fallos a nivel de microinformática y gestión e inventariado de equipos y dispositivos varios."  
+    }
+}

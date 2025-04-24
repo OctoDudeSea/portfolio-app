@@ -1,7 +1,25 @@
-<h1>Mi experiencia profesional</h1>
-<h2>En que he trabajado a nivel laboral</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laborum autem, quia, voluptatum beatae ab quam ut necessitatibus fuga accusantium nulla veniam tempora, eligendi fugit dicta saepe reprehenderit quisquam impedit.
-Debitis adipisci dolorum eos modi! Numquam similique, sequi recusandae dicta soluta libero minus totam deserunt obcaecati iusto exercitationem repudiandae, dignissimos odio laborum ipsa perferendis maxime beatae ad doloremque dolores repellendus.
-Earum officiis animi inventore alias veniam suscipit corrupti sed, nulla at soluta vero aliquam doloribus esse tempore. Voluptate numquam reprehenderit dolores officia commodi natus doloribus, sed porro placeat enim esse?
-Nisi suscipit, nobis ab ea veniam culpa aliquid repudiandae quam at ut necessitatibus quas saepe, odio alias accusamus ducimus obcaecati. Nihil tempora sunt vero minima iusto sed voluptas deleniti tempore.
-Animi nostrum repudiandae quam recusandae, et quas provident, perspiciatis laboriosam fugiat cumque nesciunt veniam quia amet id nobis, quis ducimus? Doloremque eius placeat quae nostrum dicta sunt optio ullam accusantium?</p>
+<ng-container *transloco="let trans; scope: 'experience'">
+    <h1>{{ trans("experience.title") }}</h1>
+    <h2>{{ trans("experience.description") }}</h2>
+    <p>{{ trans("experience.paragraph1") }}</p>
+    <app-skill
+        title="{{ trans('experience.experience1.title') }}"
+        description="{{ trans('experience.experience1.description') }}"
+        content="{{ trans('experience.experience1.content') }}"
+    >
+        <app-tag color="blue">Vue.js</app-tag>
+        <app-tag color="blue">.NET</app-tag>
+        <app-tag color="blue">PostgreSQL</app-tag>
+        <app-tag color="blue">Azure DevOps</app-tag>
+    </app-skill>
+    <app-skill
+        title="{{ trans('experience.experience2.title') }}"
+        description="{{ trans('experience.experience2.description') }}"
+        content="{{ trans('experience.experience2.content') }}"
+    >
+        <app-tag color="blue">Jira</app-tag>
+        <app-tag color="blue">Scripting</app-tag>
+        <app-tag color="blue">CMS Management</app-tag>
+        <app-tag color="blue">IT</app-tag>
+    </app-skill>
+</ng-container>

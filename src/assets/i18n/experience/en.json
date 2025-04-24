@@ -1,0 +1,16 @@
+{
+    "title": "My professional experience",
+    "description": "What I've worked on at a professional level",
+    "paragraph1": "In this section, I will showcase my professional journey, including the projects I've worked on and the technologies I've used. I've been involved in various projects related to the IT sector. Currently, I'm focused on web development, and my goal is to continue learning and growing in my career. I'm excited about the opportunities that the future holds for me.",
+    "paragraph2": "Below are some of the projects I've worked on and the technologies I've utilized. I hope this information helps you better understand my experience and skills.",
+    "experience1": {
+        "title": "2024 - 2025",
+        "description": "Full Stack Web Developer - Plexus Tech",
+        "content": "Implemented improvements and fixes, managed incidents and requests for the Iberostar Hotels website using .NET for the backend, Vue.js for the frontend, and PostgreSQL for the database. All organized through Azure DevOps."
+    },
+    "experience2": {
+        "title": "2021 - 2024",
+        "description": "Support Technician - Plexus Tech",
+        "content": "Resolved incidents through the Agile CMS, managed users across various platforms, addressed issues with news, images, web and live videos, handled scripts and servers on Linux and Windows, managed tickets via email, Jira, and phone support, fixed issues at a microcomputer level, and managed and inventoried various equipment and devices."
+    }
+}
